@@ -62,7 +62,7 @@ export class RecordsFiltered extends Component {
         return (
             <div>
                 <h1 id="tabelLabel" >Season Records</h1>
-                <p>Here is listed the season records for each team.</p>
+                <p>Here is listed the season records for each team. You can use the drop down to filter which team record you would like to see.</p>
 
                 <label>
                     <select onChange={this.handleChange}>
